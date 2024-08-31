@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+      font-family: "SUSE", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      
+}
+
+.container {
+text-align: center;
+height: fit-content;
+width: 50%;
+margin: 0 auto;
+padding-top: 20px;
+
+}
+.additem{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#textInput{
+     padding: 5px 10px;
+     border-radius: 5px;
+     width: 70vh;
+}
+#addTask{
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#addTask:hover{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    color: black;
+    font-weight: 800;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid black;
+}
+
+.DeleteTask{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    height: fit-content;
+    font-weight: 600;
+}
+
+.DeleteTask:hover{
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+
